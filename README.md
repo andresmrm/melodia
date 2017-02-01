@@ -3,8 +3,8 @@
 Programa para compor e reproduzir músicas simples. Ele permite capturar sons de um microfone e tentar dizer qual a nota e escala do som.
 É útil para quando você consegue assobiar a melodia da música, mas não sabe quais notas a compõem. ;)
 
-*O código é um tanto velho. Tirei um pouco do "pó", mas ainda está bem ruinzinho...
-**Use com Python 2**. Acho que só precisa mudar o "raw_input" para funcionar no Python3, mas o PyGTK2 não estava funcionando no Python3, então não testei.*
+*O código é um tanto velho. Tirei um pouco do "pó", mas ainda está bem ruinzinho...*
+**Use com Python 2.** *Acho que só precisa mudar o "raw_input" para funcionar no Python3, mas o PyGTK2 não estava funcionando no Python3, então não testei.*
 
 
 # Uso
@@ -19,14 +19,14 @@ Escreva uma música como a do exemplo abaixo. Para tocar, selecione as notas que
 
 Exemplo arquivo de música:
 
-do5/5 re5/5 re#5 o
-re#5/5 fa5/5 sol5 o
-sol5/5 la#5/5 fa5 sol5/6 fa5/6 re#5/5 re5/5 do5 o
-do5/5 re5/5 re#5 o
-re#5/5 fa5/5 sol5 o
-sol5/5 la#5/5 do6 la#5/5 re6/5 do6 o
-do6/5 re6/5 re#6 re6 do6 la#5 sol#5 sol5 fa5/3
-re#5 re5 do5/3
+    do5/5 re5/5 re#5 o
+    re#5/5 fa5/5 sol5 o
+    sol5/5 la#5/5 fa5 sol5/6 fa5/6 re#5/5 re5/5 do5 o
+    do5/5 re5/5 re#5 o
+    re#5/5 fa5/5 sol5 o
+    sol5/5 la#5/5 do6 la#5/5 re6/5 do6 o
+    do6/5 re6/5 re#6 re6 do6 la#5 sol#5 sol5 fa5/3
+    re#5 re5 do5/*3
 
 - O primeiro número depois da nota é a escala.
 - O número depois da barra é o tempo da nota. (Quanto menor, mais a nota dura)

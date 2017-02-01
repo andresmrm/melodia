@@ -3,7 +3,8 @@
 Programa para compor e reproduzir músicas simples. Ele permite capturar sons de um microfone e tentar dizer qual a nota e escala do som.
 É útil para quando você consegue assobiar a melodia da música, mas não sabe quais notas a compõem. ;)
 
-O código é um tanto velho. Tirei um pouco do "pó", mas ainda está bem ruinzinho...
+*O código é um tanto velho. Tirei um pouco do "pó", mas ainda está bem ruinzinho...
+**Use com Python 2**. Acho que só precisa mudar o "raw_input" para funcionar no Python3, mas o PyGTK2 não estava funcionando no Python3, então não testei.*
 
 
 # Uso
